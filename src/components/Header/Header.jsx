@@ -11,7 +11,9 @@ function Header() {
           mission is to satisfy your cravings and elevate your dining
           experience, one delicious meal at a time.
         </p>
-        <button>View menu</button>
+        <button>
+          <a href="#explore-menu">View menu</a>
+        </button>
       </div>
     </div>
   );

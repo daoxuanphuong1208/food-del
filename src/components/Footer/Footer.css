@@ -52,3 +52,15 @@
   border: none;
   background-color: gray;
 }
+
+@media (max-width: 750px) {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .footer-content-right {
+    text-align: center;
+  }
+}
