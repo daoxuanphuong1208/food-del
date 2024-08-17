@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { assets } from "../../assets/assets";
-function Navbar() {
+// eslint-disable-next-line react/prop-types
+function Navbar({ setShowLogin }) {
   const [menu, setMenu] = useState("home");
 
   return (
@@ -45,7 +46,7 @@ function Navbar() {
           <img src={assets.basket_icon} alt="" />
           <div className="dot"></div>
         </div>
-        <button>sign in</button>
+        <button onClick={() => setShowLogin(true)}>sign in</button>
       </div>
     </div>
   );
