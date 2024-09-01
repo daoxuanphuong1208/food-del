@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="footer" id="footer">
+    <footer className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
           <img src={assets.logo} alt="" />
@@ -39,7 +39,7 @@ function Footer() {
       <div className="footer-copyright">
         Copyright 2024 © Tomato.com - All Right Reserved
       </div>
-    </div>
+    </footer>
   );
 }
 

@@ -2,7 +2,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div className="header">
+    <header className="header">
       <div className="header-contents">
         <h2>Order your favorite food here</h2>
         <p>
@@ -15,7 +15,7 @@ function Header() {
           <a href="#explore-menu">View menu</a>
         </button>
       </div>
-    </div>
+    </header>
   );
 }
 

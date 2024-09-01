@@ -10,7 +10,7 @@ function Navbar({ setShowLogin }) {
   const { getTotalCartAmount } = useContext(StoreContext);
 
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <Link to="/">
         <img src={assets.logo} alt="logo" />
       </Link>
@@ -54,7 +54,7 @@ function Navbar({ setShowLogin }) {
         </div>
         <button onClick={() => setShowLogin(true)}>sign in</button>
       </div>
-    </div>
+    </nav>
   );
 }
 
